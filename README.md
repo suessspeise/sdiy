@@ -17,25 +17,31 @@ This repository contains layouts for proto board adaptions of freely available c
  - `nlc_jerkoff`, chaotic oscillator LFO
 
 ### Sequencing
- - `invest_baby4`, 4 step sequencer + slew limiter
- - `invest_baby8_cv`, cascading 8 step sequencer
  - `nlc_arseq`, 4 step sequencer, each step with attack and release
 
+### Mixing and Amplification
+ - `befaco_inamp.svg`, added a unity gain mixer
+ - `befaco_outputv3.svg`, headphone and stereo out amplifier
+ - `bmc054_stereooutput.svg`, panning mixer
+ - `ai008_matrixmixer.svg`, in a 32HP 7x5 Matrix version. simple schematics, lots of wiring
+ - `skull_attenuvert`, 4 attenueverters
+ - `IIIIIIII_nearness.svg`, minimal unity gain panning mixer
+ - `ncs_trannymixer.svg`, simple transistor based mixer
+
 ### Utility
- - `aisynth_matrixmixer`, simple schematics, lots of wiring
  - `nor_clock-divider`, 4024 based clock divider
- - `BMC069_gate2trigger`, gives triggers on rising and falling edge
+ - `bmc069_gate2trigger`, gives triggers on rising and falling edge
  - `nor_trigger2gate`, with settable gate length, 555 based
  - `bmc079_risefalldetector`, generates gates, indicating if an incoming singal is rising or falling
  - `invest_555clock-multiple`, multiple with a clock source normaled to the input
- - `skull_attenuvert`, 4 attenueverters
  - `nlc_bools`, logic module, logic type interchangable + stepped sequence and slew limiter
  - `nlc_diffrect`, differential rectifier...
  - `skull_multiple`, dual 1 to 3 multiple with LED
+ - `cctv_gates.svg`, passive vactrol VCA with switchable lowpass filter
+ - `karpuz_slew.svg`, slew generator
 
 ### Waveshaping
  - `nlc_dualneuron`, two neurons in one unit (for the sake of using all OpAmps)
- - `cgs52_wavefolder`, most simple wavefolder, just two transistors
 
 ### Sound Source
  - `nor_colourednoise`, white, pink, red and blue noise, based on transistor reverse break down
@@ -48,6 +54,8 @@ This repository contains layouts for proto board adaptions of freely available c
 
 ### Effects
  - `nlc_nulla_delay`, simple PT2399 delay
+ - `nlc_delaynomore.svg`, glitchy delay feedback loop
+ - `rlf_monotropav3.svg`, 4 frequency band overdrive distortion
 
 ### Misc
  - `invest_eurobus`, busboard with cheap 5x7cm proto board
