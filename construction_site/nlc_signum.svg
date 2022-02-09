@@ -164,9 +164,9 @@
      inkscape:window-height="1006"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.68260109"
-     inkscape:cx="167.72531"
-     inkscape:cy="367.45698"
+     inkscape:zoom="0.48267186"
+     inkscape:cx="35.142601"
+     inkscape:cy="617.5029"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -24253,11 +24253,11 @@
            width="100%"
            height="100%" /></flowRegion><flowPara
          id="flowPara13247">In the simplest sense, this is a switching module. It is a little different though because it has 3 states rather than just on/off: </flowPara><flowPara
-         id="flowPara13257"></flowPara><flowPara
+         id="flowPara13257" /><flowPara
          id="flowPara13259">In this case, the module uses approx 1V, rather than 0V, as the switching point, so that it can be controlled by gates. It is simple to bring it back to 0V for those who think it should be. Also the '0' state is really a result of the diode voltage drops rather than any circuit design trickery, but if it was not there this would not be a signum circuit. </flowPara><flowPara
-         id="flowPara13249"></flowPara><flowPara
+         id="flowPara13249" /><flowPara
          id="flowPara13251">The signal on the bottom input is fed to the switch of the Switch jack (oh yes) so the incoming signal can switch itself without any help. </flowPara><flowPara
-         id="flowPara13253"></flowPara><flowPara
+         id="flowPara13253" /><flowPara
          id="flowPara13255">The three states actually mean there is a flat spot at the switching point, so the circuit can be used for audio but at slow rates there is a click, so it is far better suited for CV processing.</flowPara></flowRoot><g
        transform="matrix(0.8,0,0,-0.8,297.68031,701.91653)"
        id="g14899"><g
@@ -25662,4 +25662,15 @@
                  id="tspan5990-0-6-6-9-4-3-6-1-7-0-0-8-7-9-3-3-0-7-7-9-2-3-4"
                  sodipodi:role="line"
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:2.74557924px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Bold Semi-Condensed';text-align:start;writing-mode:lr-tb;text-anchor:start">+12</tspan></text>
-</g></g></g></g></g></svg>
+</g></g></g></g><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.32083511px;line-height:1.25;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;opacity:1;fill:#f90000;fill-opacity:1;stroke:none;stroke-width:0.25235599;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="14.218998"
+       y="-420.13751"
+       id="text7714-6"
+       transform="scale(1,-1)"><tspan
+         sodipodi:role="line"
+         id="tspan7712-2"
+         x="14.218998"
+         y="-420.13751">NOT EVEN A WIRE PLACED</tspan></text>
+</g></svg>
